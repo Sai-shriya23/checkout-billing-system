@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Smart Checkout Billing System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Smart Checkout Billing System is a ReactJS-based web application that allows users to add items with price and quantity, calculate the cart total, apply discounts, calculate GST, and generate a final bill.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+* Add items with name, price, and quantity
+* Calculate subtotal automatically
+* Apply 10% discount for orders above ₹1000
+* Apply coupon code SAVE10 for an additional discount
+* Calculate GST (18%)
+* Display final bill summary
+* Delete items from cart
+* Clear cart functionality
+* Input validation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technology Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* ReactJS
+* JavaScript
+* HTML
+* CSS
+* Git
+* GitHub
 
-### `npm test`
+## Setup Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+   git clone https://github.com/Sai-shriya23/checkout-billing-system.git
 
-### `npm run build`
+2. Navigate to the project folder:
+   cd checkout-billing-system
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install dependencies:
+   npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Run the application:
+   npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Open:
+   http://localhost:3000
 
-### `npm run eject`
+## Assumptions
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* GST is fixed at 18%.
+* Orders above ₹1000 receive a 10% discount.
+* Coupon code SAVE10 provides an additional discount.
+* Price and quantity must be positive numbers.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## AI-Assisted Development
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+AI Tool Used:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* ChatGPT
 
-## Learn More
+How It Helped:
+ChatGPT assisted in designing the application structure, generating React components, implementing billing calculations, validation logic, and GitHub deployment guidance.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Challenges Faced:
+The main challenges included Git installation, GitHub authentication, repository configuration, and integrating discount and GST calculations correctly. AI assistance helped resolve these issues efficiently.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Future Enhancements
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Multiple coupon support
+* Invoice PDF generation
+* Database integration
+* User authentication
+* Billing history
